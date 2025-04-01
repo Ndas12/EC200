@@ -99,7 +99,7 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  char mobileNumber[] = "+919540743053";  // Enter the Mobile Number you want to send to
+  char mobileNumber[] = "+91**********";  // Enter the Mobile Number you want to send to
   char ATcommand[80];
   uint8_t buffer[30] = {0};
   uint8_t ATisOK = 0;
